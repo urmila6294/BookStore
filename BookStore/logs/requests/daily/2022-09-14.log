@@ -1,0 +1,34 @@
+info: ::1 - - [14/Sep/2022:06:53:00 +0000] "DELETE /api/v1/customerDetails/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Sep/2022:06:53:05 +0000] "POST /api/v1/customerDetails/ HTTP/1.1" 201 366 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Sep/2022:06:58:10 +0000] "GET /api/v1/cart HTTP/1.1" 200 2707 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Sep/2022:06:58:59 +0000] "POST /api/v1/cart/621589cd05253301a4fda5d9 HTTP/1.1" 200 2888 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Sep/2022:07:01:37 +0000] "POST /api/v1/cart/621589e905253301a4fda5da%0A HTTP/1.1" 400 161 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Sep/2022:07:02:24 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 200 4046 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Sep/2022:07:08:26 +0000] "PUT /api/v1/cart/6214803b05253301a4fda584/isPurchased HTTP/1.1" 202 62 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Sep/2022:07:09:42 +0000] "PUT /api/v1/cart/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Sep/2022:07:09:47 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 4055 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Sep/2022:07:10:05 +0000] "DELETE /api/v1/cart/631c0675d67313c418806551 HTTP/1.1" 200 4040 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Sep/2022:07:10:19 +0000] "DELETE /api/v1/cart/631c0675d67313c418806551 HTTP/1.1" 200 4040 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Sep/2022:07:10:27 +0000] "DELETE /api/v1/cart/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Sep/2022:07:10:32 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 4055 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Sep/2022:07:11:13 +0000] "DELETE /api/v1/cart/631c0675d67313c418806551 HTTP/1.1" 200 4040 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Sep/2022:07:12:09 +0000] "DELETE /api/v1/cart/631fed611d4a810d616c0d8d HTTP/1.1" 200 4040 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Sep/2022:07:13:19 +0000] "DELETE /api/v1/cart/631fed611d4a810d616c0d8d HTTP/1.1" 200 4040 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [14/Sep/2022:07:14:01 +0000] "DELETE /api/v1/cart/63217c80e13bf2168db4b93f HTTP/1.1" 200 4040 "-" "PostmanRuntime/7.29.2"
+

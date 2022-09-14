@@ -1,0 +1,504 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T05:43:41.718Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T05:43:41.760Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token F in JSON at position 7
+    at JSON.parse (<anonymous>)
+    at parse (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/user/register 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T05:46:32.926Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token F in JSON at position 7
+    at JSON.parse (<anonymous>)
+    at parse (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/user/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-07T05:46:49.681Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T05:56:25.725Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T05:56:25.750Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T05:56:51.397Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T05:56:51.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T05:56:56.657Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T05:56:56.679Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T05:59:00.111Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T05:59:00.135Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T05:59:06.396Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T05:59:06.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T05:59:10.456Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T05:59:10.479Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T05:59:45.547Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T05:59:45.573Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T05:59:51.145Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T05:59:51.164Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T05:59:54.141Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T05:59:54.165Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T06:06:50.383Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T06:06:50.403Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\services\/user.service.js:12:37)
+    at tryCatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-07T06:10:04.754Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T06:11:19.402Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T06:11:19.429Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T06:11:23.157Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T06:11:23.186Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T06:11:33.412Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T06:11:33.439Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\bcrypt\bcrypt.js:137:17)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee$ (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\services\/user.service.js:12:37)
+    at tryCatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-07T06:11:39.574Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T06:12:13.868Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T06:12:13.899Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T06:12:17.875Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T06:12:17.902Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T06:12:33.643Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T06:12:33.668Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T06:12:44.614Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T06:12:44.636Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:32:31.403Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:32:31.425Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:32:43.622Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:32:43.648Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:32:53.410Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:32:53.435Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:33:04.485Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:33:04.510Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:33:18.982Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:33:19.010Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:34:13.397Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:34:13.430Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:34:18.024Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:34:18.048Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:34:21.233Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:34:21.259Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.getAllUsers is not a function
+    at _callee$ (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\controllers\/user.controller.js:12:36)
+    at tryCatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllUsers (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\controllers\/user.controller.js:10:25)
+    at Layer.handle [as handle_request] (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/users/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T07:36:18.845Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.getAllUsers is not a function
+    at _callee$ (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\controllers\/user.controller.js:12:36)
+    at tryCatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllUsers (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\controllers\/user.controller.js:10:25)
+    at Layer.handle [as handle_request] (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/users/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T07:36:27.503Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:36:39.222Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:36:39.244Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.getAllUsers is not a function
+    at _callee$ (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\controllers\/user.controller.js:12:36)
+    at tryCatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllUsers (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\controllers\/user.controller.js:10:25)
+    at Layer.handle [as handle_request] (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/users/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T07:36:42.393Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:37:04.217Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:37:04.244Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.getAllUsers is not a function
+    at _callee$ (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\controllers\/user.controller.js:12:36)
+    at tryCatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllUsers (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\controllers\/user.controller.js:10:25)
+    at Layer.handle [as handle_request] (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/users/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T07:37:05.720Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.getAllUsers is not a function
+    at _callee$ (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\controllers\/user.controller.js:12:36)
+    at tryCatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllUsers (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\controllers\/user.controller.js:10:25)
+    at Layer.handle [as handle_request] (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/users/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T07:37:07.583Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.getAllUsers is not a function
+    at _callee$ (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\controllers\/user.controller.js:12:36)
+    at tryCatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllUsers (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\controllers\/user.controller.js:10:25)
+    at Layer.handle [as handle_request] (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/users/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T07:37:09.090Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.getAllUsers is not a function
+    at _callee$ (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\controllers\/user.controller.js:12:36)
+    at tryCatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllUsers (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\controllers\/user.controller.js:10:25)
+    at Layer.handle [as handle_request] (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T07:37:20.147Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:37:31.194Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:37:31.218Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:38:01.567Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:38:01.591Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:38:17.024Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:38:17.050Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:38:28.997Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:38:29.024Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:39:06.283Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:39:06.308Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:39:11.179Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:39:11.202Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:39:17.697Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:39:17.721Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:39:22.359Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:39:22.387Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:39:25.919Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:39:25.942Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:39:29.387Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:39:29.416Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:39:32.498Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:39:32.519Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:39:35.649Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:39:35.671Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:40:36.559Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:40:36.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:40:41.544Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:40:41.571Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:40:46.903Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:40:46.927Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T07:41:38.972Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T07:41:38.992Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T08:06:02.007Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T08:06:02.032Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.getAllUsers is not a function
+    at _callee$ (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\controllers\/user.controller.js:12:36)
+    at tryCatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllUsers (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\controllers\/user.controller.js:10:25)
+    at Layer.handle [as handle_request] (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T08:06:32.203Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.getAllUsers is not a function
+    at _callee$ (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\controllers\/user.controller.js:12:36)
+    at tryCatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllUsers (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\src\controllers\/user.controller.js:10:25)
+    at Layer.handle [as handle_request] (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/users 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-09-07T08:06:34.255Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T08:09:34.134Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T08:09:34.161Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T08:13:05.784Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T08:13:05.807Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T08:13:10.320Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T08:13:10.346Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T08:13:39.928Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T08:13:39.954Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T08:13:56.404Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T08:13:56.439Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T08:14:00.264Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T08:14:00.282Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 41
+    at JSON.parse (<anonymous>)
+    at parse (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\raw-body\index.js:231:16)
+    at done (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStore\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/resetpassword 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-09-07T08:16:10.700Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T08:31:50.508Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T08:31:50.533Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T08:32:13.114Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T08:32:13.138Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-07T08:39:09.293Z"}
+info: Connected to the database. {"timestamp":"2022-09-07T08:39:09.340Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T02:27:38.669Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T02:27:38.697Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T02:35:17.497Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T02:35:17.521Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:25:28.615Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:25:28.635Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:27:46.402Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:27:46.423Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:28:35.921Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:28:35.942Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:30:43.387Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:30:43.415Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:30:47.555Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:30:47.580Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:31:16.660Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:31:16.685Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:31:22.922Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:31:22.945Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:33:20.374Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:33:20.401Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:33:24.519Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:33:24.543Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:33:28.048Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:33:28.074Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:33:49.253Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:33:49.277Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:33:52.905Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:33:52.929Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:37:16.009Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:37:16.032Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:37:21.204Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:37:21.226Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:58:41.188Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:58:41.212Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:58:46.345Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:58:46.369Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T03:59:18.971Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T03:59:19.035Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T04:04:56.559Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T04:04:56.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-08T04:07:52.205Z"}
+info: Connected to the database. {"timestamp":"2022-09-08T04:07:52.230Z"}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStoreProject\BookStore\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStoreProject\BookStore\src\routes\/index.js:16:10)
+    at Object.<anonymous> (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStoreProject\BookStore\src\/index.js:32:32)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStoreProject\BookStore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStoreProject\BookStore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Urmila data\data\WorkSpace\NodeJS\BookStoreProject\BookStoreProject\BookStore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {"date":"Wed Sep 14 2022 07:55:05 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1383419},"process":{"argv":["node","C:\\Urmila data\\data\\WorkSpace\\NodeJS\\BookStoreProject\\BookStoreProject\\BookStore\\src\\index.js"],"cwd":"C:\\Urmila data\\data\\WorkSpace\\NodeJS\\BookStoreProject\\BookStoreProject\\BookStore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19081550,"external":53612049,"heapTotal":126717952,"heapUsed":107371472,"rss":161386496},"pid":69196,"uid":null,"version":"v16.15.1"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Urmila data\\data\\WorkSpace\\NodeJS\\BookStoreProject\\BookStoreProject\\BookStore\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Urmila data\\data\\WorkSpace\\NodeJS\\BookStoreProject\\BookStoreProject\\BookStore\\src\\routes\\/index.js:16:10)\n    at Object.<anonymous> (C:\\Urmila data\\data\\WorkSpace\\NodeJS\\BookStoreProject\\BookStoreProject\\BookStore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Urmila data\\data\\WorkSpace\\NodeJS\\BookStoreProject\\BookStoreProject\\BookStore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Urmila data\\data\\WorkSpace\\NodeJS\\BookStoreProject\\BookStoreProject\\BookStore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Urmila data\\data\\WorkSpace\\NodeJS\\BookStoreProject\\BookStoreProject\\BookStore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-09-14T02:25:05.078Z","trace":[{"column":13,"file":"C:\\Urmila data\\data\\WorkSpace\\NodeJS\\BookStoreProject\\BookStoreProject\\BookStore\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Urmila data\\data\\WorkSpace\\NodeJS\\BookStoreProject\\BookStoreProject\\BookStore\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":32,"file":"C:\\Urmila data\\data\\WorkSpace\\NodeJS\\BookStoreProject\\BookStoreProject\\BookStore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Urmila data\\data\\WorkSpace\\NodeJS\\BookStoreProject\\BookStoreProject\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Urmila data\\data\\WorkSpace\\NodeJS\\BookStoreProject\\BookStoreProject\\BookStore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Urmila data\\data\\WorkSpace\\NodeJS\\BookStoreProject\\BookStoreProject\\BookStore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T06:47:05.485Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T06:47:05.509Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T06:47:28.400Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T06:47:28.431Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T06:55:09.960Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T06:55:09.989Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T06:55:21.428Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T06:55:21.456Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T06:55:40.167Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T06:55:40.192Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T06:56:03.029Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T06:56:03.058Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T06:56:11.807Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T06:56:11.839Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T06:56:26.699Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T06:56:26.732Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T06:57:06.356Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T06:57:06.386Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T06:57:22.842Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T06:57:22.868Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T07:01:01.561Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T07:01:01.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T07:07:13.548Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T07:07:13.596Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T07:07:27.593Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T07:07:27.623Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T07:08:19.940Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T07:08:19.970Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T07:14:37.116Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T07:14:37.154Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T07:14:44.268Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T07:14:44.304Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T07:14:52.499Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T07:14:52.525Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-14T07:15:13.196Z"}
+info: Connected to the database. {"timestamp":"2022-09-14T07:15:13.217Z"}

@@ -1,0 +1,14 @@
+info: ::1 - - [08/Sep/2022:02:28:01 +0000] "GET /api/v1/users HTTP/1.1" 200 569 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Sep/2022:02:30:01 +0000] "POST /api/v1/users/login HTTP/1.1" 202 330 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Sep/2022:02:36:53 +0000] "POST /api/v1/users/register HTTP/1.1" 201 328 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Sep/2022:04:00:07 +0000] "POST /api/v1/users/login HTTP/1.1" 202 327 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Sep/2022:04:02:27 +0000] "GET /api/v1/users/books HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Sep/2022:04:02:40 +0000] "GET /api/v1/books HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [08/Sep/2022:04:03:06 +0000] "GET /api/v1/books/6214803b05253301a4fda584 HTTP/1.1" 200 1339 "-" "PostmanRuntime/7.29.2"
+
