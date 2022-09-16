@@ -1,12 +1,12 @@
 import cart from '../models/cart.model';
 import Book from '../models/book.model';
+import { client } from '../config/redis';
 
 //------------------>
 //creating cart
 export const addCart = async (_id, body) => {
-    console.log(_id);
-    console.log(body);
 const bookCheck = await Book.findById({_id:_id})
+//await client.del('getAllData');
 console.log(bookCheck);
 if (bookCheck) {
     let book = {
@@ -16,7 +16,7 @@ if (bookCheck) {
       'price': bookCheck.price,
       'bookImage': bookCheck.bookImage,
       'productId': bookCheck._id,
-      'isPurchased':bookCheck.isPurchased
+      
     
     }
     const cartCheck = await cart.findOne({userId:body.userId})
@@ -37,6 +37,7 @@ else {
 //get all books from cart
 export const cartBooks = async (_id,body) => {
     const getBooks = await cart.findOne({ userId:body.userId  })
+    await client.set('getAllData',JSON.stringify(data));
     if (getBooks) {
         return getBooks;
     } 
@@ -70,10 +71,14 @@ else {
 //Delete book from cart
 export const deleteBook = async (_id, body) => {
     const cartCheck = await cart.findOne({ userId: body.userId })
+    await client.del('getAllData');
     if (cartCheck) {
         cartCheck.books.forEach(data => {
+         //console.log("cart books------>",data);
+          //console.log ("is it array???????",Array.isArray(data));
         if (data.productId == _id) {
           let indexval = cartCheck.books.indexOf(data)
+          //console.log("indexvalue is---------->",indexval);
           cartCheck.books.splice(indexval, 1)
         }
       });
@@ -87,13 +92,10 @@ export const deleteBook = async (_id, body) => {
 }
 
 //---------->
-export const purchased = async(_id,userId) =>{
-    console.log(_id);
-    console.log(userId);
+export const purchased = async(_id) =>{
     const data = await cart.findByIdAndUpdate(
       {
-       _id:_id,
-       userId:userId
+       _id:_id
       },
       {
         isPurchased: true
@@ -103,4 +105,5 @@ export const purchased = async(_id,userId) =>{
       }
     );
     return data;
+   
   }

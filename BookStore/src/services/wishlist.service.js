@@ -1,5 +1,6 @@
 import wishlist from '../models/wishlist.model';
 import Book from '../models/book.model';
+import { client } from '../config/redis';
 
 //------------------>
 //creating wishlist
@@ -16,6 +17,7 @@ if (bookCheck) {
       'productId': bookCheck._id,
     }
     const wishlistCheck = await wishlist.findOne({userId:body.userId})
+    //await client.del('getAllData');
     if(wishlistCheck){
         wishlistCheck.books.push(book)
         const addBooks = await wishlist.findOneAndUpdate({userId: body.userId}, { books: wishlistCheck.books}, { new: true });
@@ -33,6 +35,7 @@ else {
 
 //get all books from wishlist
 export const wishlistBooks = async (_id,body) => {
+    await client.set('getAllData',JSON.stringify(data));
     const getBooks = await wishlist.findOne({ userId:body.userId  })
     if (getBooks) {
         return getBooks;
@@ -42,6 +45,7 @@ export const wishlistBooks = async (_id,body) => {
 //remove book from wishlist
 export const removeBook = async (_id, body) => {
     const wishlistCheck = await wishlist.findOne({ userId: body.userId })
+    await client.del('getAllData');
     if (wishlistCheck) {
         wishlistCheck.books.forEach(data => {
         if (data.productId == _id) {
@@ -57,3 +61,41 @@ export const removeBook = async (_id, body) => {
     }
     
 }
+
+// //remove book from wishlist
+// export const removeBook = async (_id, body) => {
+//     const wishlistCheck = await wishlist.findOne({ userId: body.userId })
+//     if (wishlistCheck) {
+//         wishlistCheck.books.map(data => {
+//         if (data.productId == _id) {
+//           let indexval = wishlistCheck.books.indexOf(data)
+//           wishlistCheck.books.splice(indexval, 1)
+//         }
+//       });
+//       const updatebook = wishlist.findOneAndUpdate({userId: body.userId}, { books: wishlistCheck.books}, { new: true });
+//           return updatebook;
+//     }
+//     else{
+//         throw new Error("wishlist does not exist")
+//     }
+    
+// }
+
+// //remove book from wishlist
+// export const removeBook = async (_id, body) => {
+//     const wishlistCheck = await wishlist.findOne({ userId: body.userId })
+//     if (wishlistCheck) {
+//         wishlistCheck.books.forEach(data => {
+//         if (data.productId == _id) {
+//           let indexval = wishlistCheck.books.indexOf(data)
+//           wishlistCheck.books.delete(indexval)
+//         }
+//       });
+//       const updatebook = wishlist.findOneAndUpdate({userId: body.userId}, { books: wishlistCheck.books}, { new: true });
+//           return updatebook;
+//     }
+//     else{
+//         throw new Error("wishlist does not exist")
+//     }
+    
+// }
