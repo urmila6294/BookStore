@@ -1,0 +1,44 @@
+info: ::1 - - [16/Sep/2022:05:32:36 +0000] "GET /api/v1/books HTTP/1.1" 200 65 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:32:43 +0000] "GET /api/v1/books HTTP/1.1" 200 76 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:33:43 +0000] "GET /api/v1/books/621588d505253301a4fda5cf HTTP/1.1" 200 376 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:33:54 +0000] "GET /api/v1/books/621588d505253301a4fda5cf HTTP/1.1" 200 388 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:34:07 +0000] "GET /api/v1/cart HTTP/1.1" 200 76 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:34:12 +0000] "GET /api/v1/cart HTTP/1.1" 200 76 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:34:31 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 76 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:34:33 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 76 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:35:32 +0000] "GET /api/v1/cart/ HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:35:36 +0000] "GET /api/v1/cart/ HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:36:27 +0000] "GET /api/v1/cart/ HTTP/1.1" 200 76 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:37:16 +0000] "GET /api/v1/wishlist HTTP/1.1" 200 76 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:37:19 +0000] "GET /api/v1/wishlist HTTP/1.1" 200 76 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:37:20 +0000] "GET /api/v1/wishlist HTTP/1.1" 200 76 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:38:28 +0000] "POST /api/v1/wishlist/621588d505253301a4fda5cf HTTP/1.1" 200 527 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:38:48 +0000] "GET /api/v1/wishlist HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:38:50 +0000] "GET /api/v1/wishlist HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:38:57 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:38:59 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:39:00 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:39:02 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [16/Sep/2022:05:44:19 +0000] "DELETE /api/v1/wishlist/621588d505253301a4fda5cf HTTP/1.1" 200 335 "-" "PostmanRuntime/7.29.2"
+
